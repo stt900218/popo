@@ -1,6 +1,7 @@
 import pytest
 import os, sys
 sys.path.append(os.getcwd())
+
 from appium import webdriver
 from base.base_driver import init_driver
 from page.page_display import Page_display
